@@ -5,7 +5,6 @@ Home Assistant themes - theme with a glass effect in different colors for light 
 * [HACS installation](#hacs_installation)
 * [Manual installation](#manual_installation)
 * [Enable the theme](#enable_the_theme)
-* [Background Image](#background_image)
 * [Screenshots](#screenshots)
 
 ## <a name="prerequisites"></a>Prerequisites
@@ -30,3 +29,25 @@ frontend:
 
 ## <a name="enable_the_theme"></a>Enable the theme
 - Open your **Profile** in Home Assistant and select the theme starting with `glass` like **glass-sea**
+
+
+## <a name="screenshots"></a>Screenshots
+
+### Weather
+
+![Theme - weather - sea dark](image-3.png)
+![Theme - weather - blue dark](image-8.png)
+![Theme - weather - blue light](image-11.png)
+
+### Developer Tools
+
+![Theme - dev tools - sea dark](image-5.png)
+![Theme - dev tools - blue dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20dark%20theme%20on%20developer%20tools.PNG)
+![Theme - dev tools - blue light](image-9.png)
+
+### Options
+
+![Theme - Options - sea dark](image-4.png)
+![Theme - Options - blue dark](image-7.png)
+![Theme - Options - blue light](image-10.png)
+
