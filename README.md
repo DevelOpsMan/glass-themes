@@ -35,19 +35,19 @@ frontend:
 
 ### Weather
 
-![Theme - weather - sea dark](image-3.png)
-![Theme - weather - blue dark](image-8.png)
-![Theme - weather - blue light](image-11.png)
+![Theme - weather - sea dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/sea%20dark%20theme%20on%20weather%20data.PNG)
+![Theme - weather - blue dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20dark%20theme%20on%20weather.PNG)
+![Theme - weather - blue light](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20theme%20on%20weather.PNG)
 
 ### Developer Tools
 
-![Theme - dev tools - sea dark](image-5.png)
+![Theme - dev tools - sea dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/sea%20dark%20theme%20on%20developer%20tools.PNG)
 ![Theme - dev tools - blue dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20dark%20theme%20on%20developer%20tools.PNG)
-![Theme - dev tools - blue light](image-9.png)
+![Theme - dev tools - blue light](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20theme%20on%20developer%20tools.PNG)
 
-### Options
+### Settings
 
-![Theme - Options - sea dark](image-4.png)
-![Theme - Options - blue dark](image-7.png)
-![Theme - Options - blue light](image-10.png)
+![Theme - Options - sea dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/sea%20dark%20theme%20on%20options.PNG)
+![Theme - Options - blue dark](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20dark%20theme%20on%20settings.PNG)
+![Theme - Options - blue light](https://codeberg.org/developsman/glass-themes/raw/branch/main/docs/blue%20theme%20on%20settings.PNG)
 
