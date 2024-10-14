@@ -1,0 +1,215 @@
+glass-greenX:
+  modes:
+    light:
+      maincolor1: "#2d8659"
+      maincolor2: "#194d33"
+      highlight_color: "#fff"
+      contrast-color1: "#eee"
+      texture-color1: "#222"
+      texture-color2: "#222"
+      background-color: "#FFF"
+
+      active-color: "#1d06e2"
+      inactive-color: "#DE1B4F"
+      unavailable-color: "#444"
+
+      backgroundeffect: radial-gradient(farthest-corner at 50% 100%, var(--maincolor1) 30%, var(--maincolor2) 90%)
+      backgroundeffect-invert: radial-gradient(farthest-corner at 50% 100%, var(--maincolor2) 30%, var(--background-color) 90%)
+      styleeffect: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.15) 10%, rgba(255, 255, 255, 0.15) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25))
+      styleeffect-short: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.15) 5%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25))
+      totaleffect: var(--styleeffect), var(--backgroundeffect)
+      totaleffect-short: var(--styleeffect-short), var(--backgroundeffect)
+
+      ### Main Interface Colors ###
+      lovelace-background: var(--backgroundeffect-invert)
+      app-header-background-color: var(--background-color)
+      app-header-icon-color: var(--maincolor2)
+      app-header-text-color: var(--maincolor2)
+
+      card-background-color: var(--totaleffect-short)
+      primary-color: var(--contrast-color1)
+      light-primary-color: "yellow"
+      primary-background-color: var(--background-color)
+      secondary-background-color: "brown"
+      rgb-secondary-background-color: 0, 0, 0
+      markdown-code-background-color: "#1E2747"
+
+      ### Text ###
+      primary-text-color: var(--contrast-color1)
+      secondary-text-color: var(--highlight_color)
+      text-primary-color: var(--maincolor2)
+      disabled-text-color: var(--highlight_color)
+
+      ### Sidebar Menu ###
+      sidebar-icon-color: var(--maincolor2)
+      sidebar-text-color: var(--maincolor2)
+      sidebar-background-color: var(--background-color)
+
+      sidebar-selected-icon-color: var(--highlight_color)
+      sidebar-selected-text-color: var(--highlight_color)
+
+      ### States and Badges ###
+      state-icon-color: var(--contrast-color1)
+      state-icon-active-color: var(--highlight_color)
+      state-icon-unavailable-color: var(--unavailable-color)
+
+      state-switch-active-color: var(--active-color)
+      state-switch-inactive-color: var(--inactive-color)
+
+      ### Sliders ###
+      paper-slider-knob-color: var(--primary-color)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--light-primary-color)
+
+      ### Labels ###
+      label-badge-background-color: var(--markdown-code-background-color)
+      label-badge-text-color: var(--primary-text-color)
+      label-badge-red: var(--divider-color)
+      label-badge-yellow: "#DCA304"
+
+      ### Cards ###
+      ha-card-border-radius: "15px"
+      ha-card-background: var(--totaleffect-short)
+      paper-card-header-color: var(--primary-text-color)
+      paper-listbox-background-color: var(--primary-background-color)
+      rgb-card-background-color: var(--rgb-secondary-background-color)
+
+      ### Toggles ###
+      paper-toggle-button-checked-button-color: "#FCFCFC"
+      paper-toggle-button-checked-bar-color: var(--light-primary-color)
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: "#303F79"
+
+      ### Table row ###
+      table-row-background-color: var(--totaleffect)
+      table-row-alternative-background-color: var(--totaleffect)
+      data-table-background-color: var(--totaleffect)
+
+      ### Switches ###
+      switch-unchecked-button-color: var(--divider-color)
+      switch-unchecked-track-color: var(--divider-color)
+
+      ### Inputs ###
+      input-fill-color: rgba(0, 0, 0, 0.6)
+      input-label-ink-color: var(--contrast-color1)
+      input-ink-color: var(--highlight_color)
+      input-disabled-fill-color: rgba(0, 0, 0, 0.33)
+      input-disabled-ink-color: var(--disabled-text-color)
+
+      ### Buttons ###
+      button-background: var(--totaleffect)
+      button-color: var(--contrast-color1)
+
+      ###Text Editor
+      code-editor-background-color: var(--maincolor2)
+      code-editor-text-color: "pink"
+      code-editor-selected-text-color: "purple"
+
+    dark:
+      maincolor1: "#2d8659"
+      maincolor2: "#194d33"
+      highlight_color: "#fff"
+      contrast-color1: "#79d2a6"
+      texture-color1: "#194d33"
+      texture-color2: "#0c271a"
+      background-color: "#ffcc99"
+
+      active-color: "#1d06e2"
+      inactive-color: "#DE1B4F"
+      unavailable-color: "#444"
+
+      backgroundeffect: radial-gradient(farthest-corner at 50% 100%, var(--maincolor1) 30%, var(--maincolor2) 90%)
+      backgroundeffect-invert: radial-gradient(farthest-corner at 50% 100%, var(--maincolor2) 30%, var(--maincolor1) 90%)
+      styleeffect: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.15) 10%, rgba(255, 255, 255, 0.15) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25))
+      styleeffect-short: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.15) 5%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25))
+      totaleffect: var(--styleeffect), var(--backgroundeffect)
+      totaleffect-short: var(--styleeffect-short), var(--backgroundeffect)
+
+      ### Main Interface Colors ###
+      lovelace-background: var(--backgroundeffect)
+      app-header-background-color: var(--background-color)
+      app-header-icon-color: var(--contrast-color1)
+      app-header-text-color: var(--contrast-color1)
+
+      card-background-color: var(--totaleffect)
+      primary-color: var(--contrast-color1)
+      light-primary-color: var(--maincolor2)
+      primary-background-color: var(--background-color)
+      secondary-background-color: var(--maincolor2)
+      rgb-secondary-background-color: 0, 0, 0
+      markdown-code-background-color: "#1E2747"
+
+      ### Text ###
+      primary-text-color: var(--contrast-color1)
+      secondary-text-color: var(--contrast-color1)
+      text-primary-color: var(--contrast-color1)
+      disabled-text-color: var(--highlight_color)
+
+      ### Sidebar Menu ###
+      sidebar-icon-color: var(--contrast-color1)
+      sidebar-text-color: var(--contrast-color1)
+      sidebar-background-color: var(--background-color)
+
+      sidebar-selected-icon-color: var(--highlight_color)
+      sidebar-selected-text-color: var(--highlight_color)
+
+      ### States and Badges ###
+      state-icon-color: var(--contrast-color1)
+      state-icon-active-color: var(--highlight_color)
+      state-icon-unavailable-color: var(--unavailable-color)
+
+      state-switch-active-color: var(--active-color)
+      state-switch-inactive-color: var(--inactive-color)
+
+      ### Sliders ###
+      paper-slider-knob-color: var(--primary-color)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--light-primary-color)
+
+      ### Labels ###
+      label-badge-background-color: var(--markdown-code-background-color)
+      label-badge-text-color: var(--primary-text-color)
+      label-badge-red: var(--divider-color)
+      label-badge-yellow: "#DCA304"
+
+      ### Cards ###
+      ha-card-border-radius: "15px"
+      ha-card-background: var(--totaleffect-short)
+      paper-card-header-color: var(--primary-text-color)
+      paper-listbox-background-color: var(--primary-background-color)
+      rgb-card-background-color: var(--rgb-secondary-background-color)
+
+      ### Toggles ###
+      paper-toggle-button-checked-button-color: "#FCFCFC"
+      paper-toggle-button-checked-bar-color: var(--light-primary-color)
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: "#303F79"
+
+      ### Table row ###
+      table-row-background-color: var(--totaleffect)
+      table-row-alternative-background-color: var(--totaleffect)
+      data-table-background-color: var(--totaleffect)
+
+      ### Switches ###
+      switch-unchecked-button-color: var(--divider-color)
+      switch-unchecked-track-color: var(--divider-color)
+
+      ### Inputs ###
+      input-fill-color: rgba(0, 0, 0, 0.6)
+      input-label-ink-color: var(--contrast-color1)
+      input-ink-color: var(--highlight_color)
+      input-disabled-fill-color: rgba(0, 0, 0, 0.33)
+      input-disabled-ink-color: var(--disabled-text-color)
+
+      ### Buttons ###
+      button-background: var(--totaleffect)
+      button-color: var(--contrast-color1)
+
+      ###Text Editor
+      code-editor-background-color: var(--maincolor2)
+      code-editor-text-color: "pink"
+      code-editor-selected-text-color: "purple"

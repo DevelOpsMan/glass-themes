@@ -1,0 +1,17 @@
+.storage
+.vscode
+blueprints/
+deps/
+docs/
+image/
+ssl/
+tts/
+www/
+.HA_VERSION
+automations.yaml
+configuration.yaml
+home-ass*
+INFO.md
+scenes.yaml
+scripts.yaml
+secrets.yaml
