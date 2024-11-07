@@ -2,7 +2,7 @@
 Home Assistant themes - theme with a glass effect in different colors for light and dark mode. This does not mean it is black and white.   
 
 * [Prerequisites](#prerequisites)
-<!-- TBD * [HACS installation](#hacs_installation) -->
+* [HACS installation](#hacs_installation)
 * [Manual installation](#manual_installation)
 * [Enable the theme](#enable_the_theme)
 * [Screenshots](#screenshots)
@@ -17,13 +17,11 @@ frontend:
 
 2. If not existing create the folder **themes** next to the **configuration.yaml** file
 
-<!-- TBD
 ## <a name="hacs_installation"></a>HACS installation
 1. Open the Community Store (HACS)
-2. Search for `glass theme`
+2. Search for `glass theme` or `Glass Themes`
 3. Install it
 4. Restart Home Assistant
--->
 
 ## <a name="manual_installation"></a>Manual installation
 1. Copy the files for the colors (f.e. 'glass-sea.yaml`) you prefer to into your Home Assistant themes folder
