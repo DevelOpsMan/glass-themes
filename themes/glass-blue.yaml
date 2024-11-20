@@ -1,6 +1,26 @@
 glass-blueX:
   modes:
     light:
+      ### WFF
+      ### Fix Dropdown Background ###
+      mdc-theme-surface: "rgba(255, 255, 255, 1)"  # Solid white dropdown background
+      mdc-menu-surface-color: "rgba(255, 255, 255, 1)"  # Solid menu surface
+
+      ### Fix Text Colors for Dropdown Items ###
+      primary-text-color: "#000000"  # Black for readability
+      secondary-text-color: "#666666"  # Dimmed gray for secondary text
+      disabled-text-color: "#9E9E9E"  # Muted gray for disabled options
+
+      ### Fix Hover and Selected States ###
+      mdc-list-item-activated-color: "rgba(0, 0, 0, 0.1)"  # Highlight hover
+      mdc-list-item-selected-text-color: "#000000"  # Selected item text
+      mdc-list-item-selected-fill-color: "rgba(200, 200, 200, 1)"  # Selected item background
+
+      ### Card Background ###
+      card-background-color: "rgba(255, 255, 255, 1)"  # White card background
+      ### WFF
+
+    
       maincolor1: "#0077b3"
       maincolor2: "#00334d"
       highlight_color: "#66d9ff"
@@ -108,6 +128,25 @@ glass-blueX:
       code-editor-selected-text-color: "purple"
 
     dark:
+     ### WFF
+      ### Fix Dropdown Background ###
+      mdc-theme-surface: "rgba(50, 50, 50, 1)"  # Dark dropdown background
+      mdc-menu-surface-color: "rgba(50, 50, 50, 1)"  # Dropdown menu surface
+
+      ### Fix Text Colors for Dropdown Items ###
+      primary-text-color: "#FFFFFF"  # Bright white for readable text
+      secondary-text-color: "#BBBBBB"  # Dimmed gray for secondary text
+      disabled-text-color: "#555555"  # Muted gray for disabled options
+
+      ### Fix Hover and Selected States ###
+      mdc-list-item-activated-color: "rgba(100, 100, 100, 0.2)"  # Highlight hover
+      mdc-list-item-selected-text-color: "#FFFFFF"  # Selected item text
+      mdc-list-item-selected-fill-color: "rgba(80, 80, 80, 1)"  # Selected item background
+
+      ### Card Background ###
+      card-background-color: "rgba(40, 40, 40, 1)"  # Dark card background
+     ### WFF
+
       maincolor1: "#0077b3"
       maincolor2: "#00334d"
       highlight_color: "#66d9ff"
