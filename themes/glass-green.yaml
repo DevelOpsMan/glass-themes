@@ -116,7 +116,7 @@ glass-greenX:
       highlight_color: "#fff"
       contrast-color1: "#79d2a6"
       texture-color1: "#333"
-      texture-color2: "#194d33"
+      texture-color2: "#79d2a6"
       background-color: var(--texture-color1)
 
       active-color: "#1d06e2"
