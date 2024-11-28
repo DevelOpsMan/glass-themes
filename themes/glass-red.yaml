@@ -104,17 +104,20 @@ glass-redX:
 
       ###Text Editor
       code-editor-background-color: var(--maincolor2)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
 
     dark:
       maincolor1: "#b30000"
       maincolor2: "#4d0000"
       highlight_color: "#00b300"
-      contrast-color1: "#ddd"
-      texture-color1: "#333"
-      texture-color2: "#000"
-      background-color: "#4d0000"
+      contrast-color1: "#DDD"
+      texture-color1: "#111"
+      texture-color2: "#DDD"
+      background-color: var(--texture-color1)
 
       active-color: "#1d06e2"
       inactive-color: "#DE1B4F"
@@ -129,9 +132,9 @@ glass-redX:
 
       ### Main Interface Colors ###
       lovelace-background: var(--backgroundeffect)
-      app-header-background-color: var(--background-color)
-      app-header-icon-color: var(--contrast-color1)
-      app-header-text-color: var(--contrast-color1)
+      app-header-background-color: var(--texture-color1)
+      app-header-icon-color: var(--texture-color2)
+      app-header-text-color: var(--texture-color2)
 
       card-background-color: var(--totaleffect)
       primary-color: var(--contrast-color1)
@@ -148,9 +151,9 @@ glass-redX:
       disabled-text-color: var(--highlight_color)
 
       ### Sidebar Menu ###
-      sidebar-icon-color: var(--contrast-color1)
-      sidebar-text-color: var(--contrast-color1)
-      sidebar-background-color: var(--background-color)
+      sidebar-icon-color: var(--texture-color2)
+      sidebar-text-color: var(--texture-color2)
+      sidebar-background-color: var(--texture-color1)
 
       sidebar-selected-icon-color: var(--highlight_color)
       sidebar-selected-text-color: var(--highlight_color)
@@ -211,5 +214,8 @@ glass-redX:
 
       ###Text Editor
       code-editor-background-color: var(--maincolor2)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor2) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text

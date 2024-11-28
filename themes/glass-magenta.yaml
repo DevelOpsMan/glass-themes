@@ -4,7 +4,7 @@ glass-magentaX:
       maincolor1: "#e60073"
       maincolor2: "#00334d"
       highlight_color: "#ddd"
-      contrast-color1: "#eee"
+      contrast-color1: "#bbb"
       texture-color1: "#2d8659"
       texture-color2: "#00334d"
       background-color: "#FFF"
@@ -104,8 +104,11 @@ glass-magentaX:
 
       ###Text Editor
       code-editor-background-color: var(--maincolor2)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
 
     dark:
       maincolor1: "#e60073"
@@ -211,5 +214,8 @@ glass-magentaX:
 
       ###Text Editor
       code-editor-background-color: var(--maincolor2)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor2) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text

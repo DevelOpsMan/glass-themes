@@ -28,9 +28,8 @@ glass-seaX:
 
       card-background-color: var(--totaleffect-short)
       primary-color: var(--contrast-color1)
-      light-primary-color: "yellow"
+      light-primary-color: var(--maincolor2)
       primary-background-color: var(--background-color)
-      secondary-background-color: "brown"
       rgb-secondary-background-color: 0, 0, 0
       markdown-code-background-color: "#1E2747"
 
@@ -95,7 +94,7 @@ glass-seaX:
       input-fill-color: rgba(0, 0, 0, 0.6)
       input-label-ink-color: var(--contrast-color1)
       input-ink-color: var(--highlight_color)
-      #input-disabled-fill-color: rgba(0, 0, 0, 0.33)
+      input-disabled-fill-color: rgba(0, 0, 0, 0.33)
       input-disabled-ink-color: var(--disabled-text-color)
 
       ### Buttons ###
@@ -104,8 +103,11 @@ glass-seaX:
 
       ###Text Editor
       code-editor-background-color: var(--background-color)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
 
     dark:
       maincolor1: "#2d8659"
@@ -130,20 +132,19 @@ glass-seaX:
       ### Main Interface Colors ###
       lovelace-background: var(--backgroundeffect)
       app-header-background-color: var(--background-color)
-      app-header-icon-color: var(--contrast-color1)
+      app-header-icon-color: var(--maincolor2)
       app-header-text-color: var(--contrast-color1)
 
       card-background-color: var(--totaleffect)
       primary-color: var(--contrast-color1)
       light-primary-color: var(--maincolor2)
       primary-background-color: var(--background-color)
-      secondary-background-color: var(--maincolor2)
       rgb-secondary-background-color: 0, 0, 0
       markdown-code-background-color: "#1E2747"
 
       ### Text ###
       primary-text-color: var(--contrast-color1)
-      secondary-text-color: var(--contrast-color1)
+      secondary-text-color: var(--highlight_color)
       text-primary-color: var(--contrast-color1)
       disabled-text-color: var(--highlight_color)
 
@@ -192,8 +193,7 @@ glass-seaX:
       ### Table row ###
       table-row-background-color: var(--totaleffect)
       table-row-alternative-background-color: var(--totaleffect)
-      mdc-data-table-background-color: var(--totaleffect)
-      mdc-data-table-background: var(--totaleffect-invert)
+      data-table-background-color: var(--totaleffect)
 
       ### Switches ###
       switch-unchecked-button-color: var(--divider-color)
@@ -212,5 +212,8 @@ glass-seaX:
 
       ###Text Editor
       code-editor-background-color: var(--background-color)
-      code-editor-text-color: "pink"
-      code-editor-selected-text-color: "purple"
+
+      ###Dropdown Background
+      mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
+      mdc-menu-surface-color: var(--maincolor2) # Solid menu surface
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
