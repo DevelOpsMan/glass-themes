@@ -5,7 +5,7 @@ glass-blueX:
       maincolor2: "#00334d"
       highlight_color: "#66d9ff"
       contrast-color1: "#eee"
-      texture-color1: "#222"
+      texture-color1: "#FFF"
       texture-color2: "#00334d"
       background-color: "#FFF"
 
