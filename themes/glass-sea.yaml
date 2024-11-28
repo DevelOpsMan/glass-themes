@@ -144,7 +144,7 @@ glass-seaX:
 
       ### Text ###
       primary-text-color: var(--contrast-color1)
-      secondary-text-color: var(--highlight_color)
+      secondary-text-color: var(--contrast-color1)
       text-primary-color: var(--contrast-color1)
       disabled-text-color: var(--highlight_color)
 
