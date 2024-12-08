@@ -106,8 +106,8 @@ glass-redX:
       code-editor-background-color: var(--maincolor2)
 
       ###Dropdown Background
-      mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
-      mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
+      #mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
+      #mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
       mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
 
     dark:
@@ -216,6 +216,6 @@ glass-redX:
       code-editor-background-color: var(--maincolor2)
 
       ###Dropdown Background
-      mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
-      mdc-menu-surface-color: var(--maincolor2) # Solid menu surface
+      #mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
+      #enu-surface-color: var(--maincolor2) # Solid menu surface
       mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
