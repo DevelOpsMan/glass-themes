@@ -105,8 +105,8 @@ glass-seaX:
       code-editor-background-color: var(--background-color)
 
       ###Dropdown Background
-      mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
-      mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
+      #mdc-theme-surface: var(--maincolor1) # Solid white dropdown background
+      #mdc-menu-surface-color: var(--maincolor1) # Solid menu surface
       mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
 
     dark:
@@ -216,4 +216,4 @@ glass-seaX:
       ###Dropdown Background
       #mdc-theme-surface: var(--maincolor2) # Solid white dropdown background
       #mdc-menu-surface-color: var(--maincolor2) # Solid menu surface
-      #mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
+      mdc-theme-on-primary: var(--maincolor2) # Admin Button Text
